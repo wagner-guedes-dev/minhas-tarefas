@@ -1,0 +1,88 @@
+.admin-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:48px;
+}
+.admin-container h1{
+    margin-bottom: 28px;
+}
+.btn-register{
+    margin-bottom: 28px;
+}
+.list{
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #303237;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    justify-content: space-between;
+    padding: 4px 6px;
+}
+.list p{
+    padding: 5px 10px;
+}
+.list p::first-letter {
+    text-transform: uppercase;
+  }
+.list-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.list button{
+    margin-left: 10px;
+    border: 0;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: transparent ;
+    color: #ffcc23;
+    font-size: 18px;
+}
+.btn-delete{
+    color: #fe120e !important;
+}
+
+.btn-logout{
+    position: fixed;
+    bottom: 6%;
+    left:4%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 0;
+    font-weight: bold;
+    background-color: #fe120e93;
+    color: #fafafa;
+    transition: 0.3s;
+}
+.btn-logout:hover{
+    background-color: #fe120e;
+    color: #fff;
+}
+.border{
+    border-left: 8px solid #ffff42;
+}
+.border-none{
+    border: none;
+}
+.concluido{
+    height: 100%;
+    min-height: 45px;
+    width: 100%;
+}
+
+@media(max-width: 930px){
+    .btn-logout{
+        position: static;
+        width: 90%;
+        max-width: 600px;
+        border-radius: 4px;
+        margin-bottom: 12px;
+        padding: 4px 6px;
+        height: 36px;
+    }
+}
+
+
